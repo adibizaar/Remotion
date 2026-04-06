@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__mcp-registry__search_mcp_registry",
+      "Bash(claude skill:*)",
+      "Bash(claude plugin:*)",
+      "WebFetch(domain:www.remotion.dev)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(npx create-video@latest --help)",
+      "Bash(npx create-video@latest my-video --template blank --install-skills --tailwind)",
+      "Bash(git clone:*)",
+      "Bash(mkdir -p /c/Users/aasim/Documents/Claude/Remotion/.claude/skills)",
+      "Bash(cp -r /tmp/remotion-skills/skills/remotion /c/Users/aasim/Documents/Claude/Remotion/.claude/skills/remotion)",
+      "Bash(npx --yes create-video@latest my-video 2)",
+      "Bash(1:*)",
+      "Bash(cp /tmp/remotion-blank/.gitignore /tmp/remotion-blank/.prettierrc /tmp/remotion-blank/eslint.config.mjs /tmp/remotion-blank/package.json /tmp/remotion-blank/remotion.config.ts /tmp/remotion-blank/tsconfig.json /c/Users/aasim/Documents/Claude/Remotion/)",
+      "Bash(cp -r /tmp/remotion-blank/src /c/Users/aasim/Documents/Claude/Remotion/src)",
+      "Bash(npm install:*)",
+      "Bash(git init:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(ls /c/Users/aasim/Documents/Claude/Remotion/.claude/skills/remotion/rules/*.md)",
+      "Bash(npx tsc:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
